@@ -57,16 +57,6 @@ $produk3 = new Komik("Konsfirasi Alam Semesta", "Fiersa Busari", "Sidiq", 760000
 $produk4 = new Komik("Single", "Raditya Dika", "Sidiq", 65000,98,0,"Novel");
 $produk5 = new Game("Naruto", "Masahsi Kisimoto", "Shonenjump", 25000,0,100,"Game");
 
-// echo $produk1->getLabel();
-// echo "<br>";
-// echo $produk2->getLabel();
-// echo "<br>";
-// echo $produk3->getLabel();
-// echo "<br>";
-// echo $produk4->getLabel();
-// echo "<br>";
-// $infoProduk = new CetakInfoProduk();
-// echo $infoProduk->cetak($produ k1);
  echo $produk1->getInfoProduk();
   echo "<br>";
   echo $produk5->getInfoProduk();
