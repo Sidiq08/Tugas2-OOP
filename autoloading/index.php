@@ -13,5 +13,7 @@ $cetakProduk->tambahProduk($produk1);
 $cetakProduk->tambahProduk($produk5);
 echo $cetakProduk->cetak();
 
+echo "<hr>";
+new Coba();
 
  ?>
